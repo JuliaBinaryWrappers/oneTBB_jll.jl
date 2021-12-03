@@ -9,19 +9,19 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libtbb,
-        "lib/libtbb.12.2.dylib",
+        "lib/libtbb.12.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libtbbmalloc,
-        "lib/libtbbmalloc.2.2.dylib",
+        "lib/libtbbmalloc.2.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libtbbmalloc_proxy,
-        "lib/libtbbmalloc_proxy.2.2.dylib",
+        "lib/libtbbmalloc_proxy.2.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
