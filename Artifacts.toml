@@ -1,164 +1,124 @@
 [[oneTBB]]
 arch = "aarch64"
-git-tree-sha1 = "9dbe26d1dd50db6263efccab6edc373132699d16"
+git-tree-sha1 = "d5ed2a4dd91126141baab38431695aaac01f573c"
 os = "macos"
 
     [[oneTBB.download]]
-    sha256 = "e168473d3966b3ebe939a3d9bdbc02322cdcf0b06098123ff493912129324ed8"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "bacc0f8ce8f246d79f01e321d6beff6409ab9636933ad1706fa1d9dace75f47c"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.aarch64-apple-darwin.tar.gz"
 [[oneTBB]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "4c477412b2ac66f8a970db64eb4597a21b8695fe"
+git-tree-sha1 = "6dbe2f302f0d797e94cab0a489d022a53e44c6b0"
 libc = "glibc"
 os = "linux"
 
     [[oneTBB.download]]
-    sha256 = "733604fb0d165b8f7d3fc9ef5391c0e2b1b5ac0da5b9fed03189c6244091843d"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "69150ae6ea45601c80be18aa391dc6068ff525f1e37c303ad678f041e52abd5a"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[oneTBB]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "309939a9429a814c654e615d7a3a78e5cdc2a7ef"
+git-tree-sha1 = "f2467122020a5f476ca1c2ecc415660196861558"
 libc = "glibc"
 os = "linux"
 
     [[oneTBB.download]]
-    sha256 = "8924e62a80eef27dbb8edc879c6a4406ba99a0648a3f419c99139b0cf109d33e"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "55a61d402d27681235a62d258f281c716c3e139ce7ad5aaf66e3901ae8793c77"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[oneTBB]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f864c636d83a34b4fcea11d1cf0f17e649fc1677"
+git-tree-sha1 = "f793cf05817ea1e0dec9e8c8d4f2ad07744b5aea"
 libc = "musl"
 os = "linux"
 
     [[oneTBB.download]]
-    sha256 = "d03cc0a61d04b6d7ab5d58b24fbb84a1e24975e1eb8eecc1dff2be3ce268b00c"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "f0ea98e650a4dbcf92ae31aaeead5be4d8e882ad0f2a97de91922b22bcdcc550"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.aarch64-linux-musl-cxx03.tar.gz"
 [[oneTBB]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5f48e3e341bb920c81915b3502c9ad625db08d83"
+git-tree-sha1 = "de964010b1fff62e81377cf71fe496aad0ce1322"
 libc = "musl"
 os = "linux"
 
     [[oneTBB.download]]
-    sha256 = "3d88abb5f127b1000b6e074ec2931067a5afc7b66ae243abf8b1f76c422c3c87"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.aarch64-linux-musl-cxx11.tar.gz"
-[[oneTBB]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "757c1ec8633a236d8139cf21565b28d7e5872505"
-libc = "glibc"
-os = "linux"
-
-    [[oneTBB.download]]
-    sha256 = "31103bee29df490ea2ab90ef3e763cabf461225a4ac91b2b33b7d82c16f949c0"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.i686-linux-gnu-cxx03.tar.gz"
-[[oneTBB]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "89a512420e1d9704f24be56858853f1e9dd66643"
-libc = "glibc"
-os = "linux"
-
-    [[oneTBB.download]]
-    sha256 = "c812ae7478792086a3110df74d25c3021af5b96b852149da184adedcfa6e82a6"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.i686-linux-gnu-cxx11.tar.gz"
-[[oneTBB]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "9d7f8f15ea0a135b4fe8e164669337885269ea5e"
-libc = "musl"
-os = "linux"
-
-    [[oneTBB.download]]
-    sha256 = "f2ce50f19974803a37847c447819f627011c0325946213e3de07d4474bc82dea"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.i686-linux-musl-cxx03.tar.gz"
-[[oneTBB]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "5f4721909bb60dfbac64027385d0e63a8e35c392"
-libc = "musl"
-os = "linux"
-
-    [[oneTBB.download]]
-    sha256 = "c55b27176d80fc274c3aeb58caea929a49257fcd863901f5956d60d13f8fd6f2"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "bc91a33a1505e8ada48fd592c54058c17df8308c9fff77b9ad0458d08d529559"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.aarch64-linux-musl-cxx11.tar.gz"
 [[oneTBB]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "afd6d898517ce5ad99a8865b21486c20865b0cbc"
+git-tree-sha1 = "86dcfe7700739ea704ef1080921e554d3e4fce50"
 libc = "glibc"
 os = "linux"
 
     [[oneTBB.download]]
-    sha256 = "5013484125a830d98b3a35e6183f17ed73a7e7730cea1ac8f165396f4158f08c"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "5faef315161ac5e0c6793d8687129c9afc9583e27b3a8daadf39ce2c84102e47"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[oneTBB]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "acf55ab4134d205bb49bb19cafa0c821a0c2c2a8"
+git-tree-sha1 = "ea360df464d9c94ce50e88611ee33e287fec86fa"
 libc = "glibc"
 os = "linux"
 
     [[oneTBB.download]]
-    sha256 = "ea7eabf4dbb99377395b87c1a4a26b55ded6799300613aa745c430f8c2f272b7"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "9e77db8608e7ab8b9fd55b06f2bf6e13e3c4442f3a2e83c6ad14b7529457c57b"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[oneTBB]]
 arch = "x86_64"
-git-tree-sha1 = "e5930dba9bff3b7c72a100e7335ecebf186fae3b"
+git-tree-sha1 = "e1eff2563310650510b2869b81682b482f79cc1e"
 os = "macos"
 
     [[oneTBB.download]]
-    sha256 = "cf4aa96f27d920dc586ece175c0b33ded0030f3e824d01210131ac54ab6ac4a2"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "e89f96287ca26f0421010a9c1ea780988b0af1264dde2f2adfdb416d7ddd0aa8"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.x86_64-apple-darwin.tar.gz"
 [[oneTBB]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a674f66b6e8f63dc0c8dd7b9d4cce6e30edb396f"
+git-tree-sha1 = "867ab97c60b004c0739eaa20ef959969984111f2"
 libc = "glibc"
 os = "linux"
 
     [[oneTBB.download]]
-    sha256 = "04274969e108b6a0d53f134ceeb2b37618bc128bf3fbd8aadf04e5bcf6e5f0cc"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "c53883ed9e6d06e271d6551eb1abf2caa54957d58ca8621d88c0a5744450e60f"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[oneTBB]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3f48e9e59a258d311c17052e43c6758f01f5799b"
+git-tree-sha1 = "f81490a50222d5107ded627fb5ea62492a49aa7f"
 libc = "glibc"
 os = "linux"
 
     [[oneTBB.download]]
-    sha256 = "18bf256fc58fffd3fe515d57a629b9cf5ce32e402fd9069bb21036046f9cf733"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "3f404c1bf132fa9a8e3c36e364ae011dd7b3c1a97ca3633902baf5efbf0ab7c2"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[oneTBB]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d5675164262b311f2be9828c6c830f0496c5331b"
+git-tree-sha1 = "6e6d59fa3b4bef422ea3366c1b2b0fff6ab4f9d2"
 libc = "musl"
 os = "linux"
 
     [[oneTBB.download]]
-    sha256 = "04a8fae04442934f65a159445cd08468bb3c9b745d80e3212e83c55d9fcf104c"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "3495a59111c327891bad543212d0d2a9e195f076082d32722b533e71c0bd0e02"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.x86_64-linux-musl-cxx03.tar.gz"
 [[oneTBB]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "6f45c2cf825632f388026a7e43fe42857ee275dd"
+git-tree-sha1 = "7a17c4f4368bc7a2fd1f53e98aee5882322860bf"
 libc = "musl"
 os = "linux"
 
     [[oneTBB.download]]
-    sha256 = "fd76ab97ca0d94726be7799231bad2f3589c6f790c606acff7baa5628ff230d0"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "9836fed931b60e87938e5250bd576f3153d47548bc17ea0f2ad036f3fb4252c4"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.x86_64-linux-musl-cxx11.tar.gz"
 [[oneTBB]]
 arch = "x86_64"
-git-tree-sha1 = "307454591b7d6872b75fdbbec9513aeb9af6f9a0"
+git-tree-sha1 = "4d6b710f7ee51f4158f1dbbe578a0aa9fc89ca3e"
 os = "freebsd"
 
     [[oneTBB.download]]
-    sha256 = "4520235774ab8e8fa81eb8349327c6435acf58a4409dceff1d2edd2410c1ecfa"
-    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.4.1+0/oneTBB.v2021.4.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "5b6c00ecff88cc9726cd07ae94f71c29cce99c26187a5b67bae39a809e092b6f"
+    url = "https://github.com/JuliaBinaryWrappers/oneTBB_jll.jl/releases/download/oneTBB-v2021.5.0+0/oneTBB.v2021.5.0.x86_64-unknown-freebsd.tar.gz"
