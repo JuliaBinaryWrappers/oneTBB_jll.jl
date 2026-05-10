@@ -6,5 +6,5 @@ using LazyArtifacts
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("oneTBB")
-JLLWrappers.@generate_main_file("oneTBB", UUID("1317d2d5-d96f-522e-a858-c73665f53c3e"))
+JLLWrappers.@generate_main_file("oneTBB", Base.UUID("1317d2d5-d96f-522e-a858-c73665f53c3e"))
 end  # module oneTBB_jll
